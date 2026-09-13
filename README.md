@@ -25,10 +25,10 @@ A modularização facilitou a organização do código porque cada método passo
 
 
 ### 4. Como o Git ajudou a controlar as alterações realizadas no sistema?
-O Git ajudou a controlar as alterações realizadas no sistema ao registrar cada mudança separadamente, permitindo rastreabilidade e manutenibilidade do histórico. Oferecendo assim maior clareza para outros desenvolvedores entenderem a evolução do código, além de possibilitar comparar, reverter ou revisar alterações específicas quando necessário.
+O Git ajudou a controlar as alterações realizadas no sistema ao registrar cada mudança separadamente, permitindo rastreabilidade e manutenibilidade do histórico, além de oferecer maior clareza para outros desenvolvedores entenderem a evolução do código e possibilitar comparar, reverter ou revisar alterações específicas quando necessário.
 
 *P.S*: Optei por fazer os commits separando cada melhoria individualmente (renomear variáveis, criar o método da média, criar o método do resultado, e por fim padronizar a saída), pois assim ficou mais fácil acompanhar cada mudança realizada durante o desenvolvimento da atividade.
 
-Porém, pesquisando um pouco mais sobre como isso costuma ser feito em times profissionais, percebi que essa não seria necessariamente a abordagem ideal em um projeto real. Como o código é pequeno, faria mais sentido agrupar mudanças que têm relação entre si no mesmo commit - por exemplo, juntar a renomeação das variáveis com a criação dos métodos em um único commit, já que uma mudança só faz sentido completo com a outra. Nesse caso, provavelmente o ideal seria ter usado 1 ou 2 commits ao invés de 4, tornando o histórico mais objetivo e revisável.
+Porém, tenho noção de que, em times profissionais, essa não seria necessariamente a abordagem ideal em um projeto real. Como o código é pequeno, faria mais sentido agrupar mudanças que têm relação entre si no mesmo commit - por exemplo, juntar a renomeação das variáveis com a criação dos métodos em um único commit, já que uma mudança só faz sentido completo com a outra. Nesse caso, provavelmente o ideal seria ter usado 1 ou 2 commits ao invés de 4, tornando o histórico mais objetivo e revisável.
 
 Ainda assim, acredito que separar os commits dessa forma foi útil para fins de aprendizado, pois deixou mais claro o raciocínio por trás de cada boa prática aplicada.
